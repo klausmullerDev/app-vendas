@@ -69,7 +69,7 @@ Aqui está um `README.md` simples e direto que você pode copiar e colar para o 
 
 ---
 
-## Capturas de Tela
+
 
 
 ## Autor
@@ -78,4 +78,4 @@ Desenvolvido por **Klaus Muller**. Confira mais projetos em meu [GitHub](https:/
 
 ---
 
-## Como Editar o `README.md`
+
