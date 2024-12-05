@@ -1,39 +1,32 @@
-# app-vendas
-Aplicação de vendas usando Flask e Bootstrap
-
-
-### **README.md Simplificado**
-
-Aqui está um `README.md` simples e direto que você pode copiar e colar para o seu projeto:
 
 ---
 
 ```markdown
-# App Vendas
+# 🚀 App Vendas
 
 **App Vendas** é uma aplicação web desenvolvida com **Flask**, projetada para gerenciar vendas, produtos, funcionários e clientes de forma eficiente e organizada.
 
 ---
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Cadastro e gerenciamento de clientes, funcionários e produtos.
-- Registro de vendas associadas a funcionários e produtos.
-- Controle de estoque com atualização automática após vendas.
-- Interface responsiva com Bootstrap.
-
----
-
-## Tecnologias Utilizadas
-
-- **Flask**: Framework Python para desenvolvimento web.
-- **SQLite**: Banco de dados leve e integrado.
-- **SQLAlchemy**: ORM para manipulação do banco de dados.
-- **Bootstrap**: Framework CSS para estilização responsiva.
+- 🧾 **Cadastro e gerenciamento** de clientes, funcionários e produtos.
+- 🛒 **Registro de vendas** associadas a funcionários e produtos.
+- 📦 **Controle de estoque** com atualização automática após vendas.
+- 📱 **Interface responsiva** utilizando Bootstrap.
 
 ---
 
-## Como Executar o Projeto
+## 🛠️ Tecnologias Utilizadas
+
+- 🐍 **Flask**: Framework Python para desenvolvimento web.
+- 🗄️ **SQLite**: Banco de dados leve e integrado.
+- 🔄 **SQLAlchemy**: ORM para manipulação do banco de dados.
+- 🎨 **Bootstrap**: Framework CSS para estilização responsiva.
+
+---
+
+## ▶️ Como Executar o Projeto
 
 ### Pré-requisitos
 - Python 3.10 ou superior
@@ -70,12 +63,12 @@ Aqui está um `README.md` simples e direto que você pode copiar e colar para o 
 ---
 
 
-
-
-## Autor
+## 👨‍💻 Autor
 
 Desenvolvido por **Klaus Muller**. Confira mais projetos em meu [GitHub](https://github.com/KlausmullerDev).
 
 ---
+
+
 
 
