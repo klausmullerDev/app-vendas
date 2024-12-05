@@ -1,74 +1,63 @@
+# 🌟 App Vendas
+
+**App Vendas** é uma aplicação web robusta e responsiva, construída com **Flask**, para facilitar o gerenciamento de vendas, produtos, funcionários e clientes.
 
 ---
 
-```markdown
-# 🚀 App Vendas
+## 📋 Funcionalidades Principais
 
-**App Vendas** é uma aplicação web desenvolvida com **Flask**, projetada para gerenciar vendas, produtos, funcionários e clientes de forma eficiente e organizada.
-
----
-
-## ✨ Funcionalidades
-
-- 🧾 **Cadastro e gerenciamento** de clientes, funcionários e produtos.
-- 🛒 **Registro de vendas** associadas a funcionários e produtos.
-- 📦 **Controle de estoque** com atualização automática após vendas.
-- 📱 **Interface responsiva** utilizando Bootstrap.
+✔️ Cadastro e gerenciamento de **clientes, funcionários e produtos**.  
+✔️ Registro completo de **vendas**, vinculando produtos e funcionários.  
+✔️ Controle automatizado de **estoque**, com atualização em tempo real.  
+✔️ Interface **moderna e responsiva**, com design baseado no **Bootstrap**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias
 
-- 🐍 **Flask**: Framework Python para desenvolvimento web.
-- 🗄️ **SQLite**: Banco de dados leve e integrado.
-- 🔄 **SQLAlchemy**: ORM para manipulação do banco de dados.
-- 🎨 **Bootstrap**: Framework CSS para estilização responsiva.
+Este projeto utiliza as seguintes tecnologias:
+
+| Tecnologia       | Descrição                         |
+|------------------|-----------------------------------|
+| **Flask**        | Framework Python para web apps.   |
+| **SQLite**       | Banco de dados leve e eficiente.  |
+| **SQLAlchemy**   | ORM para manipulação de dados.    |
+| **Bootstrap**    | Estilização e responsividade.     |
 
 ---
 
-## ▶️ Como Executar o Projeto
+## 🛠️ Como Rodar a Aplicação
 
-### Pré-requisitos
-- Python 3.10 ou superior
-- `pip` instalado
+Siga estas etapas para configurar e executar o projeto localmente:
 
-### Passos
-1. Clone este repositório:
+### 1️⃣ Pré-requisitos
+
+- **Python** (versão 3.10 ou superior).  
+- **`pip`** (gerenciador de pacotes Python).  
+
+### 2️⃣ Instalação e Configuração
+
+1. **Clone o repositório:**
    ```bash
    git clone https://github.com/KlausmullerDev/app-vendas.git
    cd app-vendas
-   ```
-
-2. Crie um ambiente virtual e instale as dependências:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-3. Configure o banco de dados:
-   ```bash
-   flask db init
-   flask db migrate -m "Configuração inicial"
-   flask db upgrade
-   ```
-
-4. Execute o servidor:
-   ```bash
-   flask run
-   ```
-
-5. Acesse em: [http://localhost:5000](http://localhost:5000)
-
----
-
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Klaus Muller**. Confira mais projetos em meu [GitHub](https://github.com/KlausmullerDev).
-
----
+Crie um ambiente virtual e ative-o:
+python3 -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+Instale as dependências:
+pip install -r requirements.txt
+Configure o banco de dados:
+flask db init
+flask db migrate -m "Configuração inicial"
+flask db upgrade
+Execute o servidor:
+flask run
+Acesse no navegador:
+http://localhost:5000
 
 
 
+
+Feito com 💻 e ☕ por Klaus Muller.
+📂 Confira mais projetos no meu GitHub.
 
