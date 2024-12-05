@@ -1,0 +1,23 @@
+# Arquivos Python
+*.pyc
+__pycache__/
+
+# Ambiente Virtual
+venv/
+env/
+
+# Configurações locais
+*.sqlite3
+*.db
+
+# Arquivos do sistema
+.DS_Store
+*.log
+
+# Instância Flask
+instance/
+
+# Arquivos de IDEs
+*.idea/
+.vscode/
+

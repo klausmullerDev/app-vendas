@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Adicionar Funcionario{% endblock %}
+
+{% block content %}
+    <h1 class="mb-4">Adicionar Funcionario</h1>
+    <form action="{{ url_for('vendas.adicionar_funcionario') }}" method="POST">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" id="nome" name="nome" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="text" id="telefone" name="telefone" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="cargo" class="form-label">Cargo</label>
+            <input type="text" id="cargo" name="cargo" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="salario" class="form-label">Salário</label>
+            <input type="number" id="salario" name="salario" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success">Adicionar</button>
+        <a href="{{ url_for('vendas.listar_clientes') }}" class="btn btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}

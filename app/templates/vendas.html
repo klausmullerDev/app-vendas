@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Lista de Vendas{% endblock %}
+
+{% block content %}
+<h1>Lista de Vendas</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Funcionário</th>
+            <th>Data</th>
+            <th>Itens</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for venda in vendas %}
+        <tr>
+            <td>{{ venda.id }}</td>
+            <td>{{ venda.funcionario.nome }}</td>
+            <td>{{ venda.data }}</td>
+            <td>
+                <ul>
+                    {% for item in venda.itens %}
+                    <li>{{ item.quantidade }} x {{ item.produto.nome }} (R$ {{ item.subtotal | round(2) }})</li>
+                    {% endfor %}
+                </ul>
+            </td>
+            <td>
+                R$ {{ venda.itens | sum(attribute='subtotal') | round(2) }}
+            </td>
+        </tr>
+        {% endfor %}
+        
+    </tbody>
+</table>
+{% endblock %}
